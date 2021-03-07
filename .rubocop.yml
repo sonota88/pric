@@ -127,6 +127,9 @@ Style/SelfAssignment:
 Style/StderrPuts:
   Enabled: false
 
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
 Style/ExponentialNotation:
   Enabled: true
 
