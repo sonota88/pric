@@ -3,7 +3,6 @@
 require_relative "helper"
 
 class Test080 < Minitest::Test
-
   def setup
     setup_common()
   end
@@ -37,5 +36,4 @@ class Test080 < Minitest::Test
 
     assert_equal("ADF", output)
   end
-
 end

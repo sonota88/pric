@@ -3,7 +3,6 @@
 require_relative "helper"
 
 class Test060 < Minitest::Test
-
   def setup
     setup_common()
   end
@@ -60,5 +59,4 @@ class Test060 < Minitest::Test
 
     assert_equal("A", output)
   end
-
 end

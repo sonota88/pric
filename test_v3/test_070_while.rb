@@ -3,7 +3,6 @@
 require_relative "helper"
 
 class Test070 < Minitest::Test
-
   def setup
     setup_common()
   end
@@ -23,5 +22,4 @@ class Test070 < Minitest::Test
 
     run_vm(src)
   end
-
 end

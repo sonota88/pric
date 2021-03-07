@@ -3,7 +3,6 @@
 require_relative "helper"
 
 class Test040 < Minitest::Test
-
   def setup
     setup_common()
   end
@@ -88,5 +87,4 @@ class Test040 < Minitest::Test
       output
     )
   end
-
 end
